@@ -1,0 +1,123 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered?", "Help me", "Guide Me"],
+         "responses": ["I can guide you through Cyber Collab and its technology, services offered, we have, several ne technology like 3D printers, holotable, holowall, Computer and e-sport labs, IoT, security and data visualization lab"],
+         "context": [""]
+        },
+        {"tag": "technologies_present",
+         "patterns": ["What do you have?", "What do you work with?", "Give me a list of Technologies ", "List all services and projects", "What devices you have?" ],
+         "responses": ["We have wide range of new technologies like 3D printers- metallic and pvc, Drones, IoT, Robotics, Advance Visualization lab, Holotable, Holowall, Hololens"],
+         "context": [""]
+        },
+        {"tag": "holowall",
+         "patterns": ["what is holowall", "why holowall", "who need holowall", "what can be done in holowall", "where is holowall" ],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "holotable",
+         "patterns": ["what is holotable", "why holotable", "who need holotable", "what can be done in holotable", "where is holotable"],
+         "responses": ["Please provide Patient ID", "Patient ID?"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "hololens",
+         "patterns": ["what is hololens", "why hololens", "who need hololens", "what can be done in hololens", "where is hololens"],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+        {"tag": "e_sport_club",
+         "patterns": ["what is esport club", "why e-sport club", "who need e-sport club", "what can be done in e-sport club", "where is e-sport club"],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "e_sport_club_timing",
+         "patterns": ["what is e-sport club timing", "what time  e-sport club is open?", "e-sport club schedule", " e-sport club hours"],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "iot_lab",
+         "patterns": ["What are current iot projects?","IoT running projects", "What are iot recent activities", " What is iot lab?"],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "robotics_lab",
+         "patterns": ["What are current robotics projects?","Robotics running projects", "What are robotics recent activities"],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "data_visualization_lab",
+         "patterns": ["where is data visualization lab?","What is data visualization lab?","How to use data visualization lab?"],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "current_projects",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        },
+        {"tag": "future_projects",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        },
+        {"tag": "career_job",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        },
+        {"tag": "3d_printers",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        },
+         {"tag": "3d_printers_uses",
+         "patterns": ["What are the uses of 3d printer?", "3D printer used for what purpose", "where can i used 3d printers?"],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        },
+        {"tag": "printing_rates",
+         "patterns": ["what are available printing rates?", " Printing price?", " Printing rate?", "Printing cost?"],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        },
+        {"tag": "cyber_collaboratory",
+         "patterns": ["Lookup for cyber collab", "what is cyber collaboratory", "why cyber collaboratory", "what cyber collaboratory do", "where cyber collaboratory" ],
+         "responses": ["Cyber collaboratory is the new lab in LSUS that has NEW technology like AR VR holotable holowall, hololens, 3D printer metallic and PVC one"],
+         "context": [""]
+        },
+        {"tag": "cyber_collaboratory_contact",
+         "patterns": ["who is director of cyber collaboratory", "who is incharge of cyber collab" ],
+         "responses": ["Very dynamic gentleman Mr.Scott Issac, email id: "],
+         "context": [""]
+		 },
+        {"tag": "cyber_collaboratory_about",
+         "patterns": ["who owns cyber collaboratory", "who owner of cyber collab" ],
+         "responses": ["Very dynamic gentleman Mr.Scott Issac, email id: "],
+         "context": [""]
+		 },
+        {"tag": "cyber_chatbot",
+         "patterns": ["who made you", "who designed you", "who are you" ],
+         "responses": ["I am your assistant designed by Sandesh Prasai using Deep learning method"],
+         "context": [""]
+		 }
+   ]
+}
